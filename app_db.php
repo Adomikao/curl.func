@@ -68,7 +68,6 @@ class app_db
                         $body = 'Can\'t connect to MySQL server';
                         //echo 'Can\'t connect to MySQL server';
                     }
-                    mod_mail::send('liupandeng1984@126.com','刘攀登','46644-Mysql错误', $body,'html');
                 }
                 else
                 {
